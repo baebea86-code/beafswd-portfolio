@@ -85,27 +85,17 @@ footer {
   border: 1px solid #e5e5e5;
 }
 
-.project-link {
+/* .project-link {
   display: flex;
   gap: 0.5rem;
   margin-top: 1rem;
   flex-wrap: wrap;
-}
+} */
 
 .project-card img {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1rem;
-}
-
-
-#contact {
-  background:#333;
-  color: white;
-}
-
-#contact p {
-  margin: 0.5rem 0;
 }
 
 #about {
