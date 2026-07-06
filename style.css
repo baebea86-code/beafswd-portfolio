@@ -13,7 +13,7 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items:right;
   padding: 1rem;
   background: rgb(6, 6, 6);
   color: white;
@@ -22,7 +22,7 @@ nav {
 nav ul {
   display: flex;
   list-style: none;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 nav a {
@@ -76,6 +76,7 @@ nav a:hover {
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   border: 1px solid #e5e5e5;
+  color: white;
 }
 
 #projects {
@@ -91,11 +92,30 @@ nav a:hover {
 #about {
   background: #333;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+#about .about-image,
+#about .container {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+#about .container {
+  text-align: left;
 }
 
 .about-image img {
+  display: block;
   width: 300px;
+  max-width: 100%;
   border-radius: 15%;
+  margin: 0 auto;
 }
 
     /* CONTACT SECTION */
@@ -105,12 +125,13 @@ nav a:hover {
 }
 
 .contact-form {
-  background: #fff;
+  background:#333;
   padding: 25px;
   border-radius: 8px;
   max-width: 480px;
   margin: auto;
   box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  color: white;
 }
 
 .contact-form h2 {
